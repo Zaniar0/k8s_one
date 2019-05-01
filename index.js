@@ -3,7 +3,7 @@ const app = express()
 
 app.get('/', (req, res) => res.send(`<html style="background-color:#FF003C">
   <head>
-    <title>v1.0.0</title>
+    <title>v2.0.0</title>
   </head>
   <body 
 style="display:flex;align-items:center;justify-content:center;color:#FFFFFF;font-family:sans-serif;font-size:6rem;margin:0;letter-spacing:-0.1em">
