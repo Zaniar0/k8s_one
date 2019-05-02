@@ -1,10 +1,10 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: app
+  name: app2
 spec:
   rules:
-  - host: demo.local
+  - host: demo2.local
     http:
       paths:
       - path: /
