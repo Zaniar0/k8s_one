@@ -1,13 +1,13 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: app2
+  name: app
 spec:
   rules:
-  - host: demo2.local
+  - host: demo3.local
     http:
       paths:
       - path: /
         backend:
-          serviceName: app
+          serviceName: second-deployment
           servicePort: 3000
